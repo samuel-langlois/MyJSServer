@@ -1,0 +1,19 @@
+/*
+Main Styles for Website
+*/
+body{
+    background-color: rgba(0, 255, 255, 0.925);
+}
+
+h1{
+    color: black;
+}
+button{
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 5mm;
+}
+
+/*#languageList{
+
+}*/
