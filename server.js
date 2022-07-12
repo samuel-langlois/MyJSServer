@@ -30,7 +30,11 @@ app.get("/scripts/\*", function(request, response){
     var originalUrlSplit = request.originalUrl.split('/');
     response.sendFile(__dirname + "/MyPortfolio/scripts/" + originalUrlSplit[originalUrlSplit.length - 1]);
 });
+/*
 
+
+
+*/
 app.listen(3000, function(){
     console.log("server start on port 3000");
 });

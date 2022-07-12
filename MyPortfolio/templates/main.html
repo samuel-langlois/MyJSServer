@@ -5,15 +5,55 @@
 	<meta charset="utf-8">
 	<title>Samuel Langlois's Personal Website</title>
 	<link rel="stylesheet" href="css/bodyStyles.css">
+	<script src="scripts/buttonMech.js"></script>
 </head>
 
 <body>
-	<h1>Samuel Langlois</h1>
-	<p>I do love coding. I started with learing Java, then python, followed by Html and Javascript. i also love video
-		games and table top games.</p>
-	<hr size="3" noshade>
-	<h3>Coding Languages Learned</h3>
-	<div id="languageList">
+
+	<!--
+		holds the Menu Bar
+	-->
+
+	<div id="menu_bar">
+		<header id="header">
+			<nav id="header_nav">
+				<ul id="header_list">
+					<li class="header_item">
+						<button class="button" onmouseenter="" onmouseleave="">
+							About me
+						</button>
+						<button class="button" onmouseenter="" onmouseleave="">
+							Coding Projects
+						</button>
+						<button class="button" onmouseenter="" onmouseleave="">
+							Joke API
+						</button>
+
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<!--
+		holds the header and about me stuff
+	-->
+
+	<div>
+		<h1>Samuel Langlois</h1>
+		<p>I do love coding. I started with learing Java, then python, followed by Html and Javascript. i also love
+			video
+			games and table top games.</p>
+		<hr size="3" noshade>
+		
+	</div>
+
+	<!--
+		holds the learned list of stuff
+	-->
+
+	<div class="learned_list">
+		<h3 class="header-learned">Coding Languages Learned</h3>
 		<ul>
 			<li>Java: Intermediate to Expert</li>
 			<li>Python: Intermediate</li>
@@ -23,13 +63,18 @@
 			<li>My <a href="https://github.com/Shev-Felgrand">Github</a></li>
 		</ul>
 	</div>
-	<div id="textContainer">
-		Testing the stuff of divs
+
+	<!--
+		holds the emailing me stuff
+	-->
+
+	<div>
+		<button type="button">Roll</button><br>
+		<iframe src="templates/contact.html" title="Contact Info"></iframe>
 	</div>
-	<button type="button">Roll</button><br>
-	<iframe src="templates/contact.html" title="Contact Info"></iframe>
-	
-<!-- When code is compiled how does it continue to run and take in commads -->
+
+
+	<!-- When code is compiled how does it continue to run and take in commads -->
 </body>
 
 </html>
